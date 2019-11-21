@@ -1,0 +1,117 @@
+[33mcommit 02561f719aa9a867fedf5e5193139e2ecbff55ca[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Nazaret <nazaretmiranda@gmail.com>
+Date:   Thu Jul 25 14:58:35 2019 +0100
+
+    Services now partially using ResponseEntity. Added Builders and Dtos. Other changes.
+
+[33mcommit 4ed7b378ef44b2fdf349b6a27cd13e9b7e02c2ed[m
+Merge: 97af04a 0922534
+Author: Nazaret <nazaretmiranda@gmail.com>
+Date:   Wed Jul 17 11:44:36 2019 +0100
+
+    Mergin major refactor. Rearranged project structure by creating three
+    new maven modules: principal, msterdata, and base.
+
+[33mcommit 0922534f3baebb328df9f1e148b85184e93a4193[m[33m ([m[1;31morigin/dev[m[33m, [m[1;32mdev[m[33m)[m
+Author: Nazaret <nazaretmiranda@gmail.com>
+Date:   Wed Jul 17 11:42:14 2019 +0100
+
+    [MAJOR REFACTOR] Rearranged project structure in three maven modules: base, masterdata, principal.
+
+[33mcommit e8ccbde01b981e4088772847a1a99c90a6051394[m
+Author: Nazaret <nazaretmiranda@gmail.com>
+Date:   Mon Jul 15 14:34:37 2019 +0100
+
+    Added Product_hangar table to manage relationships independently
+
+[33mcommit 97af04aac031d4b45a65d3380dcef583873034df[m
+Merge: 593d36d 7e07ad3
+Author: Nazaret <nazaretmiranda@gmail.com>
+Date:   Mon Jul 15 08:52:55 2019 +0100
+
+    Merge branch 'dev'
+
+[33mcommit 7e07ad3cd12e5ca81ecc3182f6f848e35a7346b8[m
+Author: Nazaret <nazaretmiranda@gmail.com>
+Date:   Mon Jul 15 08:49:40 2019 +0100
+
+    Added delete functionality to prices
+
+[33mcommit db58da59dc4614bed14346bd8ca6c72272755114[m
+Author: Nazaret <nazaretmiranda@gmail.com>
+Date:   Fri Jul 12 11:47:18 2019 +0100
+
+    Added cascade type
+
+[33mcommit 43ccfa8dfa301e33ad7f0e4fb6f4839195ab07d1[m
+Author: Nazaret <nazaretmiranda@gmail.com>
+Date:   Fri Jul 12 10:55:12 2019 +0100
+
+    Removed General Controller.
+
+[33mcommit 905322edfce987fede406d108b6eca26ced4ff9a[m
+Author: Nazaret <nazaretmiranda@gmail.com>
+Date:   Fri Jul 12 10:53:42 2019 +0100
+
+    Added hangar update logic. Refactored for propper distribution of layer responsibilities.
+
+[33mcommit 054aaed45a4a4a0c8303773043ca12e24e5598d2[m
+Author: Nazaret <nazaretmiranda@gmail.com>
+Date:   Fri Jul 12 09:43:14 2019 +0100
+
+    Modifed editProduct method to prevent null value properties from being updated to the original product
+
+[33mcommit 06873ff89d6b56bc9d91cfeb620549b5226fb6d9[m
+Author: Nazaret <nazaretmiranda@gmail.com>
+Date:   Thu Jul 11 14:52:22 2019 +0100
+
+    Now using MySQL instead of H2
+
+[33mcommit 2b2073cede80c5eda017e5f3045638c59cd21f1c[m
+Author: Nazaret <nazaretmiranda@gmail.com>
+Date:   Thu Jul 11 14:50:26 2019 +0100
+
+    Refactored to allow using new methods y DAO and Service layers
+
+[33mcommit 3e9012f4fb46ce9addc289a9ac3b214fc9768109[m
+Author: Nazaret <nazaretmiranda@gmail.com>
+Date:   Thu Jul 11 14:47:44 2019 +0100
+
+    Commented out PostConstruc actions
+
+[33mcommit e38c541019c23b86c7a8f6083f46d0aa04067e71[m
+Author: Nazaret <nazaretmiranda@gmail.com>
+Date:   Thu Jul 11 14:43:34 2019 +0100
+
+    Refactored to avoid using ProductRequest class (now unsing only Product entity)
+
+[33mcommit 2d1d466b17d47971ddb612a74f948b1f426a2884[m
+Author: Nazaret <nazaretmiranda@gmail.com>
+Date:   Thu Jul 11 14:39:07 2019 +0100
+
+    Minor changes
+
+[33mcommit b8f54eac0bf57e487401ffa391b84fbc5f3e73e2[m
+Author: Nazaret <nazaretmiranda@gmail.com>
+Date:   Thu Jul 11 13:53:58 2019 +0100
+
+    Added new entity and its layers
+
+[33mcommit f0a39fa135f1e1320bd7b764556d7f473bc6b01a[m
+Author: Nazaret <nazaretmiranda@gmail.com>
+Date:   Mon Jul 8 15:07:51 2019 +0100
+
+    Added dependencies and modified propertis to configure MySQL database
+
+[33mcommit 593d36dd0f01d748b5177e8783827704a91a624e[m
+Author: Nazaret <nazaretmiranda@gmail.com>
+Date:   Mon Jul 8 09:00:58 2019 +0100
+
+    testing ssh keys
+
+[33mcommit 154690dbaaad975b36b06da8361ce14a0b4c0a4c[m
+Author: Nazaret <nazaretmiranda@gmail.com>
+Date:   Thu Jul 4 16:51:49 2019 +0100
+
+    Rest API mocking inventory system. Pending: error handling and
+    improvement of controllers, among others.
